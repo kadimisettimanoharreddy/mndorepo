@@ -1,0 +1,26 @@
+request_id = "devops_aws_dev_a2d66f83"
+department = "DevOps"
+created_by = "manoharkadimisetti3@gmail.com"
+environment = "dev"
+instance_type = "t3.micro"
+storage_size = 8
+region = "us-east-1"
+associate_public_ip = true
+ami_filter = "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*"
+ami_owners = ["099720109477"]
+key_name = "auto-devops-059d29"
+create_new_keypair = false
+vpc_id = ""
+use_existing_vpc = false
+subnet_id = ""
+use_existing_subnet = false
+security_group_id = ""
+use_existing_sg = false
+instance_tags = {
+  "Name" = "manohar-ec2-a2d66f83"
+  "Department" = "DevOps"
+  "Environment" = "dev"
+  "RequestID" = "devops_aws_dev_a2d66f83"
+  "CreatedBy" = "manoharkadimisetti3@gmail.com"
+  "ManagedBy" = "AIOps-Platform"
+}

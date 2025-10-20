@@ -1,0 +1,26 @@
+request_id = "devops_aws_dev_1ccfc3da"
+department = "Engineering"
+created_by = "test@example.com"
+environment = "dev"
+instance_type = "t3.micro"
+storage_size = 8
+region = "us-east-1"
+associate_public_ip = true
+ami_filter = "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*"
+ami_owners = ["099720109477"]
+key_name = "auto-engineering-0fa1db"
+create_new_keypair = false
+vpc_id = ""
+use_existing_vpc = false
+subnet_id = ""
+use_existing_subnet = false
+security_group_id = ""
+use_existing_sg = false
+instance_tags = {
+  "Name" = "test-ec2-1ccfc3da"
+  "Department" = "Engineering"
+  "Environment" = "dev"
+  "RequestID" = "devops_aws_dev_1ccfc3da"
+  "CreatedBy" = "test@example.com"
+  "ManagedBy" = "AIOps-Platform"
+}

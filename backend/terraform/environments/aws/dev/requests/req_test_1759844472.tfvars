@@ -1,0 +1,26 @@
+request_id = "req_test_1759844472"
+department = "DevOps"
+created_by = "manoharkadimisetti3@gmail.com"
+environment = "dev"
+instance_type = "t3.small"
+storage_size = 30
+region = "us-east-1"
+associate_public_ip = true
+ami_filter = "amzn2-ami-hvm-*-x86_64-gp2"
+ami_owners = ["137112412989"]
+key_name = "default"
+create_new_keypair = false
+vpc_id = ""
+use_existing_vpc = false
+subnet_id = ""
+use_existing_subnet = false
+security_group_id = ""
+use_existing_sg = false
+instance_tags = {
+  "Name" = "manohar-ec2-1759844472"
+  "Department" = "DevOps"
+  "Environment" = "dev"
+  "RequestID" = "req_test_1759844472"
+  "CreatedBy" = "manoharkadimisetti3@gmail.com"
+  "ManagedBy" = "AIOps-Platform"
+}

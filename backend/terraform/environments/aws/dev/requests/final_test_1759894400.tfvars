@@ -1,0 +1,26 @@
+request_id = "final_test_1759894400"
+department = "DevOps"
+created_by = "manoharkadimisetti3@gmail.com"
+environment = "dev"
+instance_type = "t3.micro"
+storage_size = 8
+region = "us-east-1"
+associate_public_ip = false
+ami_filter = "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*"
+ami_owners = ["099720109477"]
+key_name = "test-keypair-final"
+create_new_keypair = false
+vpc_id = "vpc-0ad261ab35ff584e6"
+use_existing_vpc = true
+subnet_id = "subnet-0f610f5e0c62f97cc"
+use_existing_subnet = true
+security_group_id = "sg-0b05cb2f2d827a52f"
+use_existing_sg = true
+instance_tags = {
+  "Name" = "manohar-ec2-1759894400"
+  "Department" = "DevOps"
+  "Environment" = "dev"
+  "RequestID" = "final_test_1759894400"
+  "CreatedBy" = "manoharkadimisetti3@gmail.com"
+  "ManagedBy" = "AIOps-Platform"
+}
